@@ -15,18 +15,17 @@
     height: 80px;
 }
 .header-link {
-  width: 50px;
-  height: 60px;
-  border-radius: 50%;
-  outline: none;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   color: #fff;
 }   
 
 .header-link img {
-  max-width: 100%;
+  width: 40px;
+  height:40px;
+  margin-bottom: 5px;
 }
 
 
@@ -43,5 +42,11 @@
     width: 40px;
     height:40px;
     
+  }
+  .header-link img{
+    width: 30px;
+    height:30px;
+    display: block;
+    margin: 0 auto;
   }
 }

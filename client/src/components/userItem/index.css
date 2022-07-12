@@ -45,10 +45,19 @@
 
 
 
-@media (max-width: 768px){
+@media (max-width: 998px){
+    .user {
+        width: 45%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 927px){
     .user {
         width: 100%;
         border-radius: 10px;
         padding: 15px;
+        margin-bottom: 10px;
     }
 }

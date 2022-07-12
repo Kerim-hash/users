@@ -35,7 +35,6 @@ const Login = () => {
   });
 
   // state
-
   const [response, setResponse] = useState({
     loading: false,
     success: false,
@@ -63,6 +62,8 @@ const Login = () => {
       setResponse({ loading: false, success: false, error: false });
     }, 1500);
   };
+
+  console.log(response)
 
 
   return (
