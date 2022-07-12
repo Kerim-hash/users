@@ -1,0 +1,19 @@
+.account-img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 20px auto 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+.account-button{
+    padding: 12px 30px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid blue;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.header{
+    background: blue;
+}
+.header-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 10px 20px;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.logo {
+    width: 90px;
+    height: 80px;
+}
+.header-link {
+  width: 50px;
+  height: 60px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+}   
+
+.header-link img {
+  max-width: 100%;
+}
+
+
+.header-links{
+  display: flex;
+  align-items: center;
+  gap: 20px
+}
+
+
+
+@media (max-width: 767px){
+  .logo{
+    width: 40px;
+    height:40px;
+    
+  }
+}
